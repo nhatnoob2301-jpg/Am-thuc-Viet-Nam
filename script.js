@@ -5,7 +5,6 @@ function searchContent() {
     alert("Bạn chưa nhập từ khóa ❗");
     return;
   }
-
   if (key.includes("phở") || key.includes("pho")) {
     document.getElementById("pho").scrollIntoView({ behavior: "smooth" });
   }
